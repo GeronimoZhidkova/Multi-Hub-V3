@@ -1,0 +1,637 @@
+-- // Booting Library \\ --
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/mag"))()
+
+-- // Functions & Values \\ --
+
+function Destroy()
+
+game.CoreGui:FindFirstChild("MagikHax"):Destroy()
+
+end
+
+-- // Create Tabs \\ --
+
+local tab1 = Library.Category("Information", "Information", Color3.fromRGB(0, 204, 204))
+
+local tab2 = Library.Category("Basic", "Basic", Color3.fromRGB(0, 204, 204))
+
+local tab3 = Library.Category("Games", "Games", Color3.fromRGB(0, 204, 204))
+
+local tab4 = Library.Category("FE [No Hats]", "FE [No Hats]", Color3.fromRGB(0, 204, 204))
+
+local tab5 = Library.Category("FE [Hats]", "FE [Hats]", Color3.fromRGB(0, 204, 204))
+
+local tab6 = Library.Category("Script Hubs", "Script Hubs", Color3.fromRGB(0, 204, 204))
+
+local tab7 = Library.Category("Remote Spy", "Remote Spy", Color3.fromRGB(0, 204, 204))
+
+local tab8 = Library.Category("Player & Game", "Player & Game", Color3.fromRGB(0, 204, 204))
+
+-- // Define tab1 \\ --
+
+tab1:Section("Script Version")
+
+tab1:Button("Multi Hub V3",function()
+
+    
+
+end)
+
+tab1:Section("Current Place")
+
+tab1:Button(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,function()
+
+    setclipboard(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)    
+
+end)
+
+tab1:Section("Credits")
+
+tab1:Button("Copy Discord Invite", function()
+
+    setclipboard("https://discord.gg/UnjnNVx6Tp")
+
+end)
+
+tab1:Button("YouTube Channel", function()
+
+    setclipboard("https://youtube.com/channel/UCIx5z7_DSzgYUR8oBf6x57w")
+
+end)
+
+-- // Define tab2 \\ --
+
+tab2:Section("Usefull")
+
+tab2:Button("Keyboard", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+tab2:Button("Netless", function()
+
+    loadstring(game:HttpGet(('https://pastebin.com/raw/xN3J5qgJ'),true))()
+
+end)
+
+tab2:Button("Reset", function()
+
+    game.Players.LocalPlayer.Character.Head:Destroy()
+
+if game.Players.LocalPlayer.Character.Humanoid.Health < 5 then 
+
+    local deathmanok = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+
+    wait(1.5)
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(deathmanok)
+
+end
+
+end)
+
+tab2:Button("Script Searcher", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+
+end)
+
+tab2:Section("More")
+
+tab2:Button("Infinite Yield", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/Mm4sr6h2"))()
+
+end)
+
+tab2:Button("Arceus X V3", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+
+end)
+
+tab2:Button("Fly GUI", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/uEKJPYyS"))()
+
+end)
+
+tab2:Button("Chat Hax", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/XFdQEjzx", true))()
+
+end)
+
+tab2:Button("BTools", function()
+
+    a = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+
+a.BinType = 2
+
+b = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+
+b.BinType = 3
+
+c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+
+c.BinType = 4
+
+end)
+
+tab2:Button("ESP", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+
+end)
+
+-- // Define tab3 \\ --
+
+tab3:Section("Game Scripts")
+
+tab3:Button("Legends Of Speed", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/1iMHrZ50", true))()
+
+end)
+
+tab3:Button("Blox Fruits", function()
+
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+
+end)
+
+tab3:Button("Ninja Legends", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+
+end)
+
+tab3:Button("Evade", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+
+end)
+
+tab3:Button("My Restaurant", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+
+end)
+
+tab3:Button("Car Delearship Tycoon", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
+
+end)
+
+tab3:Button("Strong Muscle Simulator", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongmuscle", true))()
+
+end)
+
+tab3:Button("Squid Game", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFrench21/Hecta/main/Script/Squid%20Game"))()
+
+end)
+
+tab3:Button("Prison Life", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+
+end)
+
+tab3:Button("Cart Ride Into Rdite", function()
+
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Cart-Ride-Into-Rdite!-Cart-Ride-Trolling-GUI-1498", true))()
+
+end)
+
+tab3:Button("Natural Disaster Survival", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+
+end)
+
+tab3:Button("Fencing GUI", function()
+
+    loadstring(game:HttpGet(('https://pastebin.com/raw/zsC61DcA'),true))()
+
+end)
+
+tab3:Button("Mad City", function()
+
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/samandroidpro/Chicken/main/MadChickenGui"))()
+
+end)
+
+tab3:Button("Mall Tycoon", function()
+
+      _G.AutoCollect = true
+
+_G.Overlay = false
+
+if _G.Overlay then
+
+   game:GetService("Players").LocalPlayer.PlayerGui.Interface.Money.Money.Background.MoneyFrame.MoneyImage.Visible = true
+
+else
+
+   game:GetService("Players").LocalPlayer.PlayerGui.Interface.Money.Money.Background.MoneyFrame.MoneyImage.Visible = false
+
+end
+
+local args = {
+
+   [1] = "RequestCollectCash"
+
+}
+
+while wait(1) do
+
+   if _G.AutoCollect then
+
+       game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+
+   end
+
+end
+
+end)
+
+tab3:Button("Phantom Forces", function()
+
+     -- Settings --
+
+local settings = {
+
+   
+
+   fillcolor = Color3.fromRGB(255, 255, 255);
+
+   filltransparency = .75;
+
+   
+
+   outlinecolor = Color3.fromRGB(255, 255, 255);
+
+   outlinetransparency = 0;
+
+   
+
+}
+
+-- Script --
+
+local plr = game:service'Players'.LocalPlayer
+
+local highlights = Instance.new('Folder', game:service'CoreGui')
+
+local function addhighlight(object)
+
+   local highlight = Instance.new('Highlight', highlights)
+
+   highlight.Adornee = object
+
+   
+
+   highlight.FillColor = settings.fillcolor
+
+   highlight.FillTransparency = settings.filltransparency
+
+   
+
+   highlight.OutlineColor = settings.outlinecolor
+
+   highlight.OutlineTransparency = settings.outlinetransparency
+
+   
+
+   highlight.Adornee.Changed:Connect(function()
+
+       if not highlight.Adornee or not highlight.Adornee.Parent then
+
+           highlight:Destroy()    
+
+       end
+
+   end)
+
+   
+
+   return highlight
+
+end
+
+local function addtoplayer(object)
+
+   if object:IsA'Model' and object.Name == 'Player' and object.Parent.Name ~= tostring(plr.TeamColor) then
+
+       addhighlight(object)
+
+   end
+
+end
+
+for i,v in pairs(workspace.Players:GetDescendants()) do
+
+   addtoplayer(v)
+
+end
+
+workspace.Players.DescendantAdded:Connect(function(v)
+
+   addtoplayer(v)
+
+end)
+
+end)
+
+-- // Define tab4 \\ --
+
+tab4:Section("FE [No Hats]")
+
+tab4:Button("Bloody Knife", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/25P2tVPD"))()
+
+end)
+
+tab4:Button("Among Us", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/vNiNzr34"))()
+
+end)
+
+tab4:Button("Snake", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/naRUdxrc", true))()
+
+end)
+
+tab4:Button("Spider", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/txsk1LJg'))()
+
+end)
+
+tab4:Button("Gale Fighter", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/YCH5P19e"))()
+
+end)
+
+tab4:Button("Explosion", function()
+
+    loadstring(game:HttpGet(('https://pastebin.com/raw/ZjWmnKFZ'),true))()
+
+end)
+
+-- // Define tab5 \\ --
+
+tab5:Section("FE [Hats]")
+
+tab5:Button("Hat Spin", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/32PbiWw1", true))()
+
+end)
+
+tab5:Button("Psychopath", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/9Lharw50"))()
+
+end)
+
+tab5:Button("Slasher", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/sVEn1Tza"))()
+
+end)
+
+tab5:Button("PP", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/uX5WBg9u"))()
+
+end)
+
+tab5:Button("Street Fighter Gloves", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/BiXEtZ8M'))()
+
+end)
+
+-- // Define tab6 \\ --
+
+tab6:Section("Script Hubs")
+
+tab6:Button("Owl Hub", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+end)
+
+tab6:Button("Psy Hub", function()
+
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Zt1a4aE9')))() 
+
+end)
+
+tab6:Button("Dark Hub", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+
+end)
+
+tab6:Button("EZ Hub", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+
+end)
+
+tab6:Button("Speed Hub X", function()
+
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+
+end)
+
+tab6:Button("0n1 Hub V5", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeronimoZhidkova/0n1-Hub/main/Obfuscated"))()
+
+end)
+
+tab6:Button("Ghost Hub", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+
+end)
+
+tab6:Button("VG Hub", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+end)
+
+tab6:Button("R6 Animation Hub", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/0MLPL32f'))()
+
+end)
+
+tab6:Button("Obby Hub", function()
+
+    loadstring(game:HttpGet'https://pastebin.com/raw/Nv89Cn5d')()
+
+end)
+
+tab6:Button("Moon UI V13", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+
+end)
+
+tab6:Button("Fathom Hub", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+
+end)
+
+tab6:Button("Heo Hub", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/Vcps4evp'))()
+
+end)
+
+tab6:Button("Davi GUI V2", function()
+
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
+
+end)
+
+tab6:Button("FE Hub", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+
+end)
+
+-- // Define tab6 \\ --
+
+tab7:Section("Remote Spy's")
+
+tab7:Button("Simple Spy", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+
+end)
+
+tab7:Button("Turtle Spy", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/7GmZyarT'))()
+
+end)
+
+tab7:Button("Ugly Spy", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/7GmZyarT'))()
+
+end)
+
+tab7:Button("Unknown Spy", function()
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/fZGvku9G'))()
+
+end)
+
+-- // Define tab7 \\ --
+
+tab8:Section("Player")
+
+tab8:Box("Walk Speed", "", function(pws)
+
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = pwsend)
+
+tab8:Box("Jump Power", "", function(pjp)
+
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = pjp
+
+end)
+
+tab8:Box("Hip Height", "", function(phh)
+
+	game.Players.LocalPlayer.Character.Humanoid.HipHeight = phh
+
+end)
+
+tab8:Box("Gravity", "", function(pg)
+
+	game.Workspace.Gravity = pg
+
+end)
+
+tab8:Button("No Clip", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/ue2BK9xJ", true))()
+
+end)
+
+tab8:Button("Anti Kick", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/FPfaukXN"))()
+
+end)
+
+tab8:Section("Game")
+
+tab8:Button("Low Graphics", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/8QZGBLW8"))()
+
+end)
+
+tab8:Button("RTX", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/vmjZ4UY8"))()
+
+end)
+
+tab8:Button("Night", function()
+
+    while true do 
+
+		print ("Loop cycle start")
+
+		game.Lighting.TimeOfDay = "18:00:00"
+
+		wait(0.5)
+
+	end
+
+end)
+
+tab8:Button("Disco", function()
+
+    while true do
+
+ 
+
+		game.Lighting.Ambient = Color3.new(math.random(), math.random(), math.random())
+
+		wait(.25)
+
+ 
+
+	end
+
+end)
+
+tab8:Section("UI")
+
+tab8:Button("Destroy UI", function()
+
+    Destroy()
+
+end)
